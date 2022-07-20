@@ -1,11 +1,11 @@
 import React from 'react';
 
-const Footer = () => {
+const MovieCard = () => {
     return (
         <div>
-            Footer
+           MovieCard
         </div>
     );
 };
 
-export default Footer;
+export default MovieCard;
