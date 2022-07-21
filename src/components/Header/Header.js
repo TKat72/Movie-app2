@@ -1,6 +1,7 @@
 import React from 'react';
 import user from '../../images/user.png';
 import { Link } from 'react-router-dom'
+import "./Header.scss"
 
 const Header = () => {
     return (
@@ -10,7 +11,6 @@ const Header = () => {
             </Link>
             <div className="user-img">
                 <img src='https://static.vecteezy.com/system/resources/previews/000/550/731/original/user-icon-vector.jpg' alt="user"></img>
-                <p>Twst</p>
             </div>
         </div>
     );
