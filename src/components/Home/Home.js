@@ -6,7 +6,8 @@ import "./Home.scss"
 
 const Home = () => {
     useEffect(() => {
-        const movieText = "Harry"
+        const movieText = "Tom"
+        
         const fetchMovie = async () => {
             const res = await movieApi.get(`?apiKey=${APIKey}&s=${movieText}&type=movie`).catch((err) => {
                 console.log("Errors : ", err)
