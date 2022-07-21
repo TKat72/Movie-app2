@@ -10,7 +10,7 @@ const Header = () => {
                 <div className="logo">Movie app</div>
             </Link>
             <div className="user-img">
-                <img src='https://static.vecteezy.com/system/resources/previews/000/550/731/original/user-icon-vector.jpg' alt="user"></img>
+                <img src={user} alt="user"></img>
             </div>
         </div>
     );

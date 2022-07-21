@@ -1,10 +1,11 @@
 import React from 'react';
-
+import MovieListing from "../MoveListing/MovieListing"
+import "./Home.scss"
 const Home = () => {
     return (
-        <div>
-            Home
-            <p> Test !!!!!!</p>
+        <div className="home">
+<div className="banner-img"></div>
+<MovieListing></MovieListing>
         </div>
     );
 };
